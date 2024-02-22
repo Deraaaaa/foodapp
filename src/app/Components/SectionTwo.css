@@ -1,0 +1,78 @@
+
+.sectionTwo{
+    display: flex;
+    align-items: center;
+    padding: 50px 13%;
+    gap: 100px;
+}
+
+.sectionTwo .sectionTwoLeft{
+    width: 100%;
+}
+
+.sectionTwo .sectionTwoRight{
+    width: 80%;
+}
+
+.sectionTwoRight{
+    margin-left: auto;
+}
+
+
+.sectionTwoRight h2{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.sectionTwoRight p{
+    padding-top: 20px;
+    font-size: 10px;
+    color: gray;
+}
+
+.iconDivs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+    /* grid-template-columns: auto auto; */
+}
+
+.iconDivs div{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.iconDivs div::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; 
+    background-color: orange; 
+    transition: width 0.3s ease; 
+  }
+
+.iconDivs div:hover::before{
+    width: 100%;
+}
+
+.iconDivs span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+.sectionTwoIcons{
+    font-size: 30px;
+}

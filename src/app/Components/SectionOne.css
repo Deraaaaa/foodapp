@@ -1,0 +1,84 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+.sectionOne{
+    padding: 150px 5%;
+
+}
+
+
+.sectionOneBack{
+    background-color: black;
+    padding: 50px 10%;
+    color: white;
+    display:flex;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.sectionOneBack h2{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    width: 70%;
+}
+
+.sectionOneBack p{
+    font-size: 20px;
+    width: 70%;
+    padding: 20px 0;
+}
+
+.inputDiv{
+    display: flex;
+}
+
+.inputDiv input{
+    padding: 15px;
+    width: 50%;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(39, 38, 38);
+}
+
+.inputDiv button{
+    padding: 15px 40px;
+    border: none;
+    background-color:'#ff8e2';
+    font-size: 15px;
+}
+
+.iconDiv{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.iconDiv span{
+    font-size: 25px;
+}
+
+.optionsDiv{
+    display: flex;
+    background-color: rgb(37, 36, 36);
+    align-items: center;
+}
+
+.optionsDiv p{
+    width: 100%;
+    color: white;
+    border-left: 1px solid rgb(207, 203, 203);
+    border-right: 1px solid rgb(207, 203, 203);
+    padding:30px;
+    text-align: center;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   font-size: 16px;
+   font-weight: bold;
+}
